@@ -1,0 +1,130 @@
+html{
+    width: 100%;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first_screen{
+    background-image: url(/img/first_backgr.jpg);
+    
+    height: 800px;
+    background-color: grey;
+    color:white;
+}
+header{
+    padding-top: 32px;
+    color: white;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+.logo{
+    max-width: 1000px;
+}
+.header_menu{
+    margin-left: 10%;
+}
+.header_menu_button{
+    padding-right: 30px;
+}
+.header_menu_button:hover{
+    text-decoration: underline;
+    color: orange;
+}
+hr{
+    margin-top: 20px;
+}
+.right_bar{
+    right: 0;
+}
+.right_bar_button{
+    margin-left: 5%;
+}
+.right_bar_text:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.first_screen_main_text{
+    font-family: Plumb;
+    margin-top: 120px;
+}
+.first_screen__title{
+    font-style: 400;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 102px;
+    /* or 102px */
+    text-transform: uppercase;
+}
+.first_screen_text{
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+/* or 34px */
+}
+
+.first_screen_boxes{
+    margin-top: -100px;
+    display: inline-flex;
+    margin-left: 600px;
+}
+.first_screen_box{
+    width: 255px;
+    height: 148px;
+}
+#first_box{
+    background-color: #2378FC;
+}
+#second_box{
+   background-color: #30BCC9;
+   margin-left: 30px;
+}
+#third_box{
+    background-color:#FFC41E;
+    margin-top: 178px;
+    margin-left: -540px;
+    height: 175px;
+}
+#fourth_box{
+    background-color:#F6404F;
+    margin-left: 30px;
+    margin-top: 178px;
+    height: 175px;
+}
+.first_screen_box_title{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+}
+.box_more_info{
+    padding-top: 15px;
+    padding-left: 40px;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+}
+
+footer{
+    background-color: #2378FC;
+    height: 426px;
+    width: 100%;
+
+}
