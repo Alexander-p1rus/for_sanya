@@ -1,14 +1,15 @@
 html{
-    width: 100%;
+    width: 100%; //бессмысленно
 }
 body{
     margin: 0;
-    width: 100%;
+    padding;:0;
+    box-sizing:border-box;
+    width: 100%; //бессмысленно
 }
 .container{
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto
 }
 .first_screen{
     background-image: url(/img/first_backgr.jpg);
